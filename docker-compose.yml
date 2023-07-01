@@ -9,7 +9,7 @@ services:
           USER_ID: ${USER_ID:-0}
           GROUP_ID: ${GROUP_ID:-0}
     entrypoint: bash -ilc ./entrypoint.sh
-    container_name: ros_humble
+    container_name: ros2_lidar
     privileged: true
     network_mode: "host"           # access to host's network
     stdin_open: true               # docker run -i
