@@ -18,6 +18,11 @@ docker-compose up
 
 3) Enjoy the show! 
 
+###Live view from the LIDAR:
+![live_view](https://github.com/jpoles1/ros2_lidar/assets/366282/042db94c-2e32-46ed-b22a-9eea894b6d24)
+
+###2D SLAM Mapping:
+![map](https://github.com/jpoles1/ros2_lidar/assets/366282/d28e7061-f15e-46af-b8c1-56c297d2a8d2)
 
 4) You can modify the commands run at startup dynamically by simply editing ./workspace/entrypoint.sh
 
